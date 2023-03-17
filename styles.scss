@@ -514,6 +514,84 @@ footer {
 }
 
 @media screen and (max-width:420px) {
-    
+    .about {
+        .container {
+           .about-text {
+            .group {
+                display: flex;
+                flex-direction: column;
+            }
+           }
+        }
+    }
+    .page-2 {
+        .container{
+           min-height: 150vh;
+           flex-direction: column;
+           gap: 0;
+           
+           .item-row {
+               padding: 0;
+           }
+           .item-left {
+               top: -200px;
+                    .elli {
+                       max-width: 100%;
+                       max-height: 300px;
+                         }
+                .row {
+                    display: none;
+                }
+                .left {
+                    top: 30px;
+                    bottom: 0;
+                    width: 250px;
+                    height: 250px;
+                    left: 20px;
+                    right: 0;
+                    clip-path: circle(30%);
+                }
+               
+           }
+       }
+   }
+   .home {
+    .container {
+        .header {
+            button {
+                padding: 3px 10px;
+                font-size: 8px;
+                cursor: pointer;
+                outline: none;
+                border-radius: 4px 0 4px 0;
+                
+            }
+            button :hover {
+                background-color: #3d525f;
+            }
+        }
+    }
+   }
+   .consultant {
+    .container {
+        img {
+            margin: 0 auto;
+            margin-bottom: 20px;
+            
+        }
+        .consul-text {
+            h5 {
+                text-align: center;
+            }
+            h2 {
+                text-align: center;
+                font-size: 16px;
+            }
+            button {
+               margin-left: 50px ;
+            }
+        }
+    }
+   }
 }
     
